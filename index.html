@@ -325,7 +325,7 @@
                 if (filter == "alle" || filter == vare.gsx$kategori.$t) {
                     const klon = temp.cloneNode(true).content;
                     klon.querySelector("h2").textContent = vare.gsx$navn.$t;
-                    klon.querySelector(".kort").textContent = vare.gsx$kort.$t;;
+                    klon.querySelector(".kort").textContent = vare.gsx$kort.$t;
                     klon.querySelector("img").src = "imgs/small/" + vare.gsx$billede.$t + "-sm.jpg";
                     klon.querySelector(".pris").textContent += vare.gsx$pris.$t + ",-";
                     modtagerKloner.appendChild(klon);
